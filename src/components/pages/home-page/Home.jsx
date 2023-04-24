@@ -5,6 +5,8 @@ import Card from '../../card/Card'
 import Content from '../../main/Content'
 import SecondCard from '../../card-2/SecondCard'
 import JoinFlick from '../../joinFlick/JoinFlick'
+import { RatingStyles } from '../../rating/RatingStyles'
+import Rating from '../../rating/Rating'
 
 
 function Home() {
@@ -14,6 +16,9 @@ function Home() {
         <Card />
         <Content />
         <SecondCard />
+        <RatingStyles />
+        <Rating />
+        <RatingStyles />
         <JoinFlick />
         <Footer />
     </div>
