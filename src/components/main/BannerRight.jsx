@@ -1,7 +1,8 @@
 import React from 'react'
-import "./MainContent.scss"
-import {AnimationOnScroll} from "react-animation-on-scroll"
-import './animate.scss';
+import './content.css'
+import AnimationOnScroll from "react-animate-on-scroll";
+import './animate.css';
+import "animate.css/animate.min.css";
 
 function BannerRight({subtitle,title,description,image}) {
   return (

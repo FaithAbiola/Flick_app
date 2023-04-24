@@ -1,0 +1,37 @@
+.card-container {
+    width: 85%;
+    background: url(../../assets/img/cardbg.svg) no-repeat center center/cover;
+    height: 383px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-container .card-inner-content {
+    width: 26%;
+  }
+  
+  .card-container .card-inner-content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .card-container .card-inner-content p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7FDFC;
+  }
+  

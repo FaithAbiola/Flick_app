@@ -1,0 +1,195 @@
+.join-flick-section {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 936px) {
+    .join-flick-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .join-flick-section .join-flick-left {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20.2667px;
+    background: url(../../assets/images/bgSteps.svg) no-repeat center center/cover;
+  }
+  
+  @media (max-width: 936px) {
+    .join-flick-section .join-flick-left {
+      width: 100%;
+      margin-bottom: 32px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .join-flick-section .join-flick-left .join-flick-left-center {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .join-flick-section .join-flick-left .join-flick-left-center h1 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+  }
+  
+  .join-flick-section .join-flick-left .join-flick-left-center p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 150.5%;
+    color: #F7FDFC;
+    margin-bottom: 34px;
+  }
+  
+  .join-flick-section .join-flick-left .join-flick-left-center .get-started-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 52px 26px;
+    gap: 10px;
+    width: 213px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 50px;
+  }
+  
+  .join-flick-section .join-flick-right {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  @media (max-width: 936px) {
+    .join-flick-section .join-flick-right {
+      width: 100%;
+    }
+  }
+
+  .join-flick-steps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 156px;
+  }
+  .join-flick-steps .steps-image {
+    margin-left: 30px;
+  }
+  @media (max-width: 1208px) {
+    .join-flick-steps .steps-image {
+      margin-left: 20px;
+    }
+  }
+  @media (max-width: 460px) {
+    .join-flick-steps .steps-image {
+      margin-left: 10px;
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .join-flick-steps .join-flick-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+  }
+  @media (max-width: 460px) {
+    .join-flick-steps .join-flick-content {
+      padding: 10px;
+    }
+  }
+  .join-flick-steps .join-flick-content h1 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #111928;
+  }
+  @media (max-width: 1208px) {
+    .join-flick-steps .join-flick-content h1 {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 460px) {
+    .join-flick-steps .join-flick-content h1 {
+      font-size: 18px;
+    }
+  }
+  .join-flick-steps .join-flick-content p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #666666;
+  }
+  @media (max-width: 1208px) {
+    .join-flick-steps .join-flick-content p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width:395px){
+    .join-flick-steps {
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+  }
+
+  @-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+  }
+  
+  

@@ -1,16 +1,18 @@
 import React from 'react'
-import './MainContent.scss';
-import './animate.scss'
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import './animate.css'
+import "animate.css/animate.min.css";
+import AnimationOnScroll  from 'react-animate-on-scroll';
+import './content.css';
+
 function Customer() {
   return (
     <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}> 
-    <div className='customer-trust-section'>
-            <h1 className='customer-trust-title'>
+    <div className='customer-section'>
+            <h1 className='customer-title'>
             Customers all over Nigeria trust Flick to transact faster.
             </h1>
-            <div className='customer-trust-count'>
-                <p className='customer-trust-description'>Connect your bank accounts, view your net worth in a glance, and make contactless payments.</p>
+            <div className='customer-count'>
+                <p className='customer-description'>Connect your bank accounts, view your net worth in a glance, and make contactless payments.</p>
                 <div className='count-flex-row'>
                     <div className='count-flex-column'>
                         <h1>20<span>+</span></h1>

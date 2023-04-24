@@ -1,7 +1,8 @@
-import React from 'react'
-import {AnimationOnScroll} from "react-animation-on-scroll"
-import "./MainContent.scss"
-import './animate.scss';
+import React from 'react';
+import AnimationOnScroll from "react-animate-on-scroll";
+import './content.css';
+import './animate.css';
+import "animate.css/animate.min.css";
 
 function BannerLeft({title,description,image}) {
   return (
